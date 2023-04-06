@@ -10,7 +10,7 @@ const Home = () => {
             const players = await fetchAllPuppies();
             setPlayers(players);
         }
-        console.log(getAllPuppies);
+        getAllPuppies();
     })
 
 }

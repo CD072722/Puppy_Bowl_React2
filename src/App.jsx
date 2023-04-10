@@ -1,16 +1,15 @@
-import React, { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import './style.css'
+import RRoutes from './components/Routes'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (<>
-    <div id="new-player-form"></div>
-  <div id="all-players-container"></div>
+  <div></div>
+  
+    <div><RRoutes /></div>
   </>
   )
 }
 
-export default App
+export default App;
